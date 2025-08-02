@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  padding: 100px;
+}
+.section-one {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.section-one__nav {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 10px;
+  color: #808080;
+}
+
+/* .section-two{
+    text-align: center;
+    vertical-align: top;
+}
+.section-two__container1{
+    display: inline-block;
+    width: 250px;
+    height: 408px;
+    background-color: white;
+    color: black;
+    margin: 10px 0 10px 0;
+    border: 2px solid black;
+}
+.section-two__content{
+    padding: 20px 10px 0 10px;
+    text-align: center;
+}
+.section-two__button{
+    background-color: black;
+    color: white;
+    padding: 5px;
+} */
+
+.section__two-main{
+ text-align: center;
+}
+.section__two__container {
+  border: 2px solid black;
+  width: max-content;
+  height: max-content;
+  margin: 10px 0 10px 0;
+  display: inline-block;
+}
+
+.section__two__container img {
+  width: 250px;
+  height: 300px;
+}
+.section__two__container h3,
+p {
+  text-align: center;
+}
+.section__two__container button {
+  display: block;
+  margin: 10px auto;
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.section-three__top {
+  padding: 20px 0 20px 0;
+  background-color: black;
+}
+
+.section-three {
+  background-color: black;
+  color: white;
+}
+.section-three h1 {
+  text-align: center;
+}
+.section-three form {
+  padding: 0px 550px 0px 550px;
+}
+.button-three {
+  display: block;
+  margin: 2px auto auto auto;
+  padding: 5px 200px;
+  background-color: yellow;
+}
+.input {
+  margin-top: 5px;
+  height: 25px;
+}
